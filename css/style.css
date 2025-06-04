@@ -34,15 +34,50 @@ body {
     text-align: right;
 }
 
-#previousOperation {
-    color: #777;
-    padding: .2em;
-    overflow-wrap: break-word;
-    min-height: 1.6em;
+#previousOperation, #currentOperation {
+overflow-wrap: break-word;
+padding: .2em;
+min-height: 1.6em;
 }
 
-#currentOperation {
-    min-height: 1.6em;
+#previousOperation {
+    color: #777;
+}
+
+#currentOperation { 
     font-size: 3em;
-    font-weight: 700;
+    font-weight: 700;   
+}
+
+#buttonsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+}
+
+#buttonsContainer button {
+    border: 1px solid transparent ;
+    border-radius: 0;
+    height: 4em;
+    font-size: 1.2em;
+    background-color: #dbdbdb;
+    cursor: pointer;
+}
+
+#buttonsContainer .number {
+    background-color: #f3f3f3;
+}
+
+#buttonsContainer button:hover {
+    border-color: #bababa;
+    background-color: #999;
+}
+
+#buttonsContainer #equalBtn {
+    grid-column: span 2;
+    background-color: #75a5eb;
+}
+
+#buttonsContainer #equalBtn:hover {
+    background-color: #3a91d8;
 }
