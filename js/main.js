@@ -39,3 +39,37 @@ buttons.forEach((btn) => {
         }
     })
 }); 
+
+
+// declare a variable and reasing it to your favourite food. After this, alert the value
+
+let food = "bananada"
+
+alert(food);
+
+// Declare a variable, assign it a string, alert the second character in the string (use your google)
+
+let textoString = "macaya"
+
+if (textoString.length >= 2) {
+    alert(textoString[1];)
+} else {
+    alert("this string have no second character")
+}
+
+// Create a Function that takes in 3 numbers. Divide the first two numbers and multiply the last. Alert the product. Call the Function
+
+function functionExercise(a,b,c) {
+    let resultOne = (a / b * c);
+    alert(resultOne);
+}
+
+//Create a function that takes in a month. If it is summer month alert YAY. If another other month, alert "boo"
+
+function mesAno (a) {
+    if (a === 1 || a === 2 || a === 3 || a === 4) {
+        alert("o ano nem começou");
+    } else {
+        alert("cuida trabalhar vagabundo");
+    }
+}
