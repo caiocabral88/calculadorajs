@@ -60,7 +60,7 @@ if (textoString.length >= 2) {
 // Create a Function that takes in 3 numbers. Divide the first two numbers and multiply the last. Alert the product. Call the Function
 
 function functionExercise(a,b,c) {
-    let resultOne = (a / b * c);
+    let resultOne = ((a / b) * c);
     alert(resultOne);
 }
 
